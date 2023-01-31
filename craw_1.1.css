@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient( to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(./ph1.1/forpj1.1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 792px;
+}
+
+.nav{
+    width: 1400px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 350px;
+    height: 70px;
+    float: left;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.menu{
+    width: 400px;
+    height:70px;
+    float: left;
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s ease;
+}
+
+.menu ul li a:hover{
+    color: orange;
+}
+
+.search{
+    width: 350px;
+    height: 70px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+.search input{
+    background: transparent;
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid orange;
+    padding:12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+
+}
+
+::placeholder{
+    color: #fff;
+    opacity: .5;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid orange;
+    background: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.search button:focus{
+    outline: none;
+}
+
+.search button:hover{
+    background: #fff;
+    color: orange;
+}
+
+
+/*-- middle --*/
+
+.content{
+width: 1400px;
+margin: auto;
+color: #fff;
+position: relative;
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 9%;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.content span{
+    color: orange;
+}
+.content p{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.jus{
+    padding-left: 20px;
+}
+.jus button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+   background: orange;
+   color: black;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 12px;
+   transition: .4s ease;
+}
+
+.jus button:hover{
+    background: white;
+
+}
+
+.form{
+    position: absolute;
+    top: 160px;
+    right: 100px;
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form h2{
+    width: 220px;
+    font-size: 22px;
+    color: orange;
+    text-align: center;
+    background: #fff;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 8px;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.form input{
+    height: 35px;
+    background: transparent;
+    width: 220px;
+    margin-top: 30px;
+    border: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form button{
+    width:240px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.form button:hover{
+    background: orange;
+    color: #fff;
+}
+
+.form p{
+    width: 220px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.log{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.form p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app a{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+    padding-left: 16px;
+    text-align: center;
+    transition: .4s ease;
+}
+
+.app a:hover{
+    color: orange;
+}
